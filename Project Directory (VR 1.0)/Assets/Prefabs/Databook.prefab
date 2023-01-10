@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8391923194293892702
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8391923194293892697}
+  - component: {fileID: 8391923194293892696}
+  m_Layer: 0
+  m_Name: Databook
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8391923194293892697
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8391923194293892702}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8391923194293892696
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8391923194293892702}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8dc29b97b8795c344aa12b8d287c1454, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  piecePrefab:
+  - {fileID: 6089148576126951986, guid: 8f9b2f6744cf0e04e8a91cb6e620bf07, type: 3}
+  - {fileID: 8888667261790827086, guid: 1234026c3c00ee1488c5727c5b1b868e, type: 3}
+  - {fileID: 6851957136000644480, guid: 7293420b715a8ff4c9f667f3ea9081a4, type: 3}
+  - {fileID: 5989842918277068727, guid: 481cdbb38c3043a42bb03827cd9355a1, type: 3}
+  - {fileID: 462191776916010611, guid: 4a756ca6e10fd1c4491eceedb4abab1c, type: 3}
+  - {fileID: 2841505299383185694, guid: 4ed7469e99121e543913ec0e3abbba0b, type: 3}
+  teamMaterial:
+  - {fileID: 2100000, guid: d09888fb380864d7d820ffed5c260deb, type: 2}
+  - {fileID: 2100000, guid: ce80d7520e4604c6faaad086dc1a7590, type: 2}
+  standardSpawnCode: {fileID: 4900000, guid: b031d779d8a60fa4b8c6d6ad9caeb825, type: 3}
